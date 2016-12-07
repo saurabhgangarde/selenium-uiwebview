@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:RemoteDebug/RemoteDebug.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Selenium/iphone/iWebDriver.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SamplePG/SamplePG.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:HTMLJSApp/HTMLJSApp.xcodeproj">
+   </FileRef>
+</Workspace>

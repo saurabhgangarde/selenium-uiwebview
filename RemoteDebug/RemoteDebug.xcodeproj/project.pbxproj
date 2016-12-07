@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3908975C15D3D33500DB8C7A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3908975B15D3D33500DB8C7A /* UIKit.framework */; };
+		3908975E15D3D33500DB8C7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3908975D15D3D33500DB8C7A /* Foundation.framework */; };
+		3908976015D3D33500DB8C7A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3908975F15D3D33500DB8C7A /* CoreGraphics.framework */; };
+		3908976615D3D33500DB8C7A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3908976415D3D33500DB8C7A /* InfoPlist.strings */; };
+		3908976815D3D33500DB8C7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3908976715D3D33500DB8C7A /* main.m */; };
+		3908976C15D3D33500DB8C7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3908976B15D3D33500DB8C7A /* AppDelegate.m */; };
+		3908976F15D3D33500DB8C7A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3908976D15D3D33500DB8C7A /* MainStoryboard.storyboard */; };
+		3908977215D3D33500DB8C7A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3908977115D3D33500DB8C7A /* ViewController.m */; };
+		3908977D15D3D3EE00DB8C7A /* www in Resources */ = {isa = PBXBuildFile; fileRef = 3908977C15D3D3EE00DB8C7A /* www */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3908975715D3D33500DB8C7A /* RemoteDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemoteDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3908975B15D3D33500DB8C7A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3908975D15D3D33500DB8C7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3908975F15D3D33500DB8C7A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3908976315D3D33500DB8C7A /* RemoteDebug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RemoteDebug-Info.plist"; sourceTree = "<group>"; };
+		3908976515D3D33500DB8C7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3908976715D3D33500DB8C7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3908976915D3D33500DB8C7A /* RemoteDebug-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RemoteDebug-Prefix.pch"; sourceTree = "<group>"; };
+		3908976A15D3D33500DB8C7A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3908976B15D3D33500DB8C7A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3908976E15D3D33500DB8C7A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		3908977015D3D33500DB8C7A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3908977115D3D33500DB8C7A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3908977C15D3D3EE00DB8C7A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../www; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3908975415D3D33500DB8C7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3908975C15D3D33500DB8C7A /* UIKit.framework in Frameworks */,
+				3908975E15D3D33500DB8C7A /* Foundation.framework in Frameworks */,
+				3908976015D3D33500DB8C7A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3908974C15D3D33500DB8C7A = {
+			isa = PBXGroup;
+			children = (
+				3908977C15D3D3EE00DB8C7A /* www */,
+				3908976115D3D33500DB8C7A /* RemoteDebug */,
+				3908975A15D3D33500DB8C7A /* Frameworks */,
+				3908975815D3D33500DB8C7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3908975815D3D33500DB8C7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3908975715D3D33500DB8C7A /* RemoteDebug.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3908975A15D3D33500DB8C7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3908975B15D3D33500DB8C7A /* UIKit.framework */,
+				3908975D15D3D33500DB8C7A /* Foundation.framework */,
+				3908975F15D3D33500DB8C7A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3908976115D3D33500DB8C7A /* RemoteDebug */ = {
+			isa = PBXGroup;
+			children = (
+				3908976A15D3D33500DB8C7A /* AppDelegate.h */,
+				3908976B15D3D33500DB8C7A /* AppDelegate.m */,
+				3908976D15D3D33500DB8C7A /* MainStoryboard.storyboard */,
+				3908977015D3D33500DB8C7A /* ViewController.h */,
+				3908977115D3D33500DB8C7A /* ViewController.m */,
+				3908976215D3D33500DB8C7A /* Supporting Files */,
+			);
+			path = RemoteDebug;
+			sourceTree = "<group>";
+		};
+		3908976215D3D33500DB8C7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3908976315D3D33500DB8C7A /* RemoteDebug-Info.plist */,
+				3908976415D3D33500DB8C7A /* InfoPlist.strings */,
+				3908976715D3D33500DB8C7A /* main.m */,
+				3908976915D3D33500DB8C7A /* RemoteDebug-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3908975615D3D33500DB8C7A /* RemoteDebug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3908977515D3D33500DB8C7A /* Build configuration list for PBXNativeTarget "RemoteDebug" */;
+			buildPhases = (
+				3908975315D3D33500DB8C7A /* Sources */,
+				3908975415D3D33500DB8C7A /* Frameworks */,
+				3908975515D3D33500DB8C7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RemoteDebug;
+			productName = RemoteDebug;
+			productReference = 3908975715D3D33500DB8C7A /* RemoteDebug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3908974E15D3D33500DB8C7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = saurabhg;
+			};
+			buildConfigurationList = 3908975115D3D33500DB8C7A /* Build configuration list for PBXProject "RemoteDebug" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3908974C15D3D33500DB8C7A;
+			productRefGroup = 3908975815D3D33500DB8C7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3908975615D3D33500DB8C7A /* RemoteDebug */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3908975515D3D33500DB8C7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3908976615D3D33500DB8C7A /* InfoPlist.strings in Resources */,
+				3908976F15D3D33500DB8C7A /* MainStoryboard.storyboard in Resources */,
+				3908977D15D3D3EE00DB8C7A /* www in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3908975315D3D33500DB8C7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3908976815D3D33500DB8C7A /* main.m in Sources */,
+				3908976C15D3D33500DB8C7A /* AppDelegate.m in Sources */,
+				3908977215D3D33500DB8C7A /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3908976415D3D33500DB8C7A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3908976515D3D33500DB8C7A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3908976D15D3D33500DB8C7A /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3908976E15D3D33500DB8C7A /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3908977315D3D33500DB8C7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		3908977415D3D33500DB8C7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3908977615D3D33500DB8C7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Saurabh Gangarde (BRMBJDVH78)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Saurabh Gangarde (BRMBJDVH78)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RemoteDebug/RemoteDebug-Prefix.pch";
+				INFOPLIST_FILE = "RemoteDebug/RemoteDebug-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "C2375CB2-2AB3-46C7-8475-069115412911";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C2375CB2-2AB3-46C7-8475-069115412911";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3908977715D3D33500DB8C7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RemoteDebug/RemoteDebug-Prefix.pch";
+				INFOPLIST_FILE = "RemoteDebug/RemoteDebug-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3908975115D3D33500DB8C7A /* Build configuration list for PBXProject "RemoteDebug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3908977315D3D33500DB8C7A /* Debug */,
+				3908977415D3D33500DB8C7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3908977515D3D33500DB8C7A /* Build configuration list for PBXNativeTarget "RemoteDebug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3908977615D3D33500DB8C7A /* Debug */,
+				3908977715D3D33500DB8C7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3908974E15D3D33500DB8C7A /* Project object */;
+}
